@@ -262,12 +262,17 @@
   display: flex;
   flex: 0.85;
   flex-direction: column;
+  margin-left: auto;
 }
 
 .most__cards > h5 {
   margin-top: 10px;
   font-weight: 800;
   font-size: 14px;
+}
+
+.card__info > p {
+  width: 70%;
 }
 
 .card__info > img {
@@ -278,17 +283,22 @@
 
 .card__infoBox {
   display: flex;
+  justify-content: space-between;
   margin-top: 10px;
 }
 
 .most__popular {
-  border-top: 1px solid black;
   display: flex;
   margin-left: 20px;
   flex-direction: column;
 }
 
-.most__popular > h5 {
+.most__popularTitle {
+  border-top: 1px solid black;
+  width: 300px;
+}
+
+.most__popularTitle > h5 {
   margin-top: 10px;
   font-weight: 800;
   font-size: 14px;
@@ -300,6 +310,40 @@
 
 .most__popularInfo > p:hover {
   color: grey;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid lightgray;
+}
+
+.times__logo {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer__title {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title__columnInfo > p {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.title__columnInfo > p:hover {
+  text-decoration: underline;
+}
+
+.title__columnSub {
+  border-left: 1px solid lightgrey;
+  padding-left: 10px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1009px) {
@@ -349,6 +393,33 @@
   .editor__pick {
     display: none;
   }
+
+  .times__logo {
+    display: flex;
+  }
+
+  .footer__title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .title__column {
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid lightgray;
+  }
+
+  .title__columnInfo {
+    display: none;
+  }
+
+  .title__columnSub {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 950px) {
@@ -384,6 +455,15 @@
   .comment > p {
     width: 100%;
     color: gray;
+  }
+
+  .most__popular {
+    display: none;
+  }
+
+  .most__cards {
+    margin-bottom: 50px;
+    justify-content: center;
   }
 }
 
