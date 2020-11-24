@@ -221,6 +221,21 @@
   cursor: pointer;
 }
 
+.card__info > p {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.most__popularInfo > p {
+  font-size: 17px;
+  border-top: 1px solid lightgray;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .editor__box > p:hover {
   text-decoration: underline;
 }
@@ -266,13 +281,6 @@
   margin-top: 10px;
 }
 
-.card__info > p {
-  font-weight: 700;
-  margin-top: 10px;
-  font-size: 15px;
-  cursor: pointer;
-}
-
 .most__popular {
   border-top: 1px solid black;
   display: flex;
@@ -288,14 +296,6 @@
 
 .most__popularInfo {
   width: 50%;
-}
-
-.most__popularInfo > p {
-  font-size: 17px;
-  border-top: 1px solid lightgray;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .most__popularInfo > p:hover {
