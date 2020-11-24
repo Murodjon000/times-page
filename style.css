@@ -226,6 +226,7 @@
   margin-top: 10px;
   font-size: 15px;
   cursor: pointer;
+  width: 70%;
 }
 
 .most__popularInfo > p {
@@ -234,6 +235,11 @@
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.title__columnInfo > p {
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .editor__box > p:hover {
@@ -269,10 +275,6 @@
   margin-top: 10px;
   font-weight: 800;
   font-size: 14px;
-}
-
-.card__info > p {
-  width: 70%;
 }
 
 .card__info > img {
@@ -329,11 +331,6 @@
 .footer__title {
   display: flex;
   justify-content: space-evenly;
-}
-
-.title__columnInfo > p {
-  font-size: 14px;
-  cursor: pointer;
 }
 
 .title__columnInfo > p:hover {
