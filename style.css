@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  border: 1px solid lightgrey;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.left__side {
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+}
+.icon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.middle__side {
+  display: flex;
+  align-items: center;
+}
+.middle__side > img {
+  object-fit: contain;
+  height: 40px;
+}
+.right__side {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+}
+.user {
+  display: none;
+}
+.right__side > button {
+  margin-right: 10px;
+  background-color: #567b95;
+  color: #fff;
+  padding: 9px;
+  border: none;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.right__side > button:hover {
+  background-color: #326891;
+}
+.header__buttons {
+  display: none;
+}
+.advert__box > p {
+  margin: 10px;
+  font-size: 10px;
+  color: grey;
+}
+.advert__box {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.article {
+  display: grid;
+  place-items: center;
+  margin-top: 50px;
+}
+.article__name {
+  margin-bottom: 30px;
+  width: 600px;
+  font-size: 20px;
+}
+.article__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.img__box > img {
+  width: 70vw;
+  justify-content: center;
+}
+.comment {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.comment > p {
+  width: 71%;
+  color: gray;
+}
+.article__textContainer {
+  display: flex;
+  justify-content: center;
+}
+.article__text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+}
+.article__text > h5 {
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.text__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.publish__day > p {
+  font-size: 12px;
+}
+.apps > .apps_icon {
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #eeeeee;
+  border-radius: 50%;
+  padding: 8px;
+  border: #eeeeee;
+}
+.apps > .apps_icon:hover {
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+}
+.apps > .mark {
+  cursor: pointer;
+}
+.main__text {
+  letter-spacing: 0.2px;
+}
+.main__text > article {
+  font-size: 20px;
+  font-language-override: normal;
+}
+.editor__pick {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+  justify-items: flex-end;
+  margin-left: 30px;
+}
+.editor__pick > h5 {
+  border-bottom: 1px solid lightgray;
+}
+.editor__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.editor__box > img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.editor__box > p {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.editor__box > p:hover {
+  text-decoration: underline;
+}
+.end__article {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: gray;
+}
+.comment__button > button {
+  background-color: #326891;
+  border: 1px solid #326891;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+.comment__button > button:hover {
+  background-color: #1a4b70;
+}
+.cards__space {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.most__cards {
+  border-top: 1px solid black;
+  display: flex;
+  flex: 0.85;
+  flex-direction: column;
+}
+.most__cards > h5 {
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 14px;
+}
+.card__info > img {
+  height: 120px;
+  cursor: pointer;
+  width: 200px;
+}
+.card__infoBox {
+  display: flex;
+  margin-top: 10px;
+}
+.card__info > p {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.most__popular {
+  border-top: 1px solid black;
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+}
+.most__popular > h5 {
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 14px;
+}
+.most__popularInfo {
+  width: 50%;
+}
+.most__popularInfo > p {
+  font-size: 17px;
+  border-top: 1px solid lightgray;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.most__popularInfo > p:hover {
+  color: grey;
+}
+@media only screen and (max-width: 1009px) {
+  .img__box > img {
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .user {
+    display: flex;
+    font-size: 20px;
+  }
+  .right__side > button {
+    display: none;
+  }
+  .header__buttons {
+    display: flex;
+    background-color: white;
+    justify-content: flex-end;
+  }
+  .header__buttons > button {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: grey;
+    margin-right: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .header__text {
+    display: none;
+  }
+  .left__icon {
+    display: none;
+  }
+  .comment > p {
+    width: 80%;
+    color: gray;
+  }
+  .editor__pick {
+    display: none;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .img__box > img {
+    width: 100vw;
+    justify-content: center;
+  }
+  .comment > p {
+    width: 80%;
+    color: gray;
+  }
+  .editor__pick {
+    display: none;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .img__box > img {
+    width: 100vw;
+    justify-content: center;
+  }
+  .editor__pick {
+    display: none;
+  }
+  .advert__box {
+    display: none;
+  }
+  .comment > p {
+    width: 100%;
+    color: gray;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .header__container {
+    width: 100%;
+  }
+  .img__box > img {
+    width: 100vw;
+    justify-content: center;
+  }
+  .editor__pick {
+    display: none;
+  }
+  .advert__box {
+    display: none;
+  }
+  .comment > p {
+    width: 100%;
+    color: gray;
+  }
+}
