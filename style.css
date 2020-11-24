@@ -61,6 +61,20 @@
   cursor: pointer;
 }
 
+.comment__button > button {
+  background-color: #326891;
+  border: 1px solid #326891;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
 .right__side > button:hover {
   background-color: #326891;
 }
@@ -153,15 +167,15 @@
 .apps > .apps_icon {
   margin-right: 10px;
   cursor: pointer;
-  background-color: #eeeeee;
+  background-color: #eee;
   border-radius: 50%;
   padding: 8px;
-  border: #eeeeee;
+  border: #eee;
 }
 
 .apps > .apps_icon:hover {
   background-color: #fff;
-  border: 1px solid #eeeeee;
+  border: 1px solid #eee;
 }
 
 .apps > .mark {
@@ -216,20 +230,6 @@
   margin-bottom: 10px;
   font-size: 12px;
   color: gray;
-}
-
-.comment__button > button {
-  background-color: #326891;
-  border: 1px solid #326891;
-  outline: none;
-  border-radius: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  font-size: 18px;
-  color: #fff;
-  cursor: pointer;
 }
 
 .comment__button > button:hover {
@@ -350,6 +350,7 @@
     display: none;
   }
 }
+
 @media only screen and (max-width: 950px) {
   .img__box > img {
     width: 100vw;
@@ -365,6 +366,7 @@
     display: none;
   }
 }
+
 @media only screen and (max-width: 760px) {
   .img__box > img {
     width: 100vw;
@@ -384,6 +386,7 @@
     color: gray;
   }
 }
+
 @media only screen and (max-width: 650px) {
   .header__container {
     width: 100%;
