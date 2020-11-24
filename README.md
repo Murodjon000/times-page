@@ -1,8 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # NEW YORK TIMES HOMEPAGE
 
-> One paragraph statement about the project.
+> Very Handy Project To Improve Your Web Design Capacity.
 
 ![screenshot](./app_screenshot.png)
 
@@ -19,8 +17,8 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**If you want to make imporvement to this project i will be happy😀😉**
+**You can clone it to your computer in order to make improvment**
 
 To get a local copy up and running follow these simple example steps.
 
