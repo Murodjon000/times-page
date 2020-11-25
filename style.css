@@ -78,12 +78,26 @@
   font-weight: 700;
 }
 
+.title__columnInfo > a {
+  text-decoration: none;
+  color: black;
+}
+
 .end__footer > a {
   padding-top: 8px;
   text-decoration: none;
   font-size: 12px;
   color: gray;
   margin-right: 8px;
+}
+
+.times__logo > a {
+  display: flex;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-decoration: none;
+  justify-content: flex-end;
 }
 
 .main__footer > a,
@@ -343,14 +357,6 @@
   color: gray;
 }
 
-.most__popularInfo > p {
-  font-size: 17px;
-  border-top: 1px solid lightgray;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 .title__columnInfo > p {
   font-size: 14px;
   cursor: pointer;
@@ -367,6 +373,11 @@
 
 .most__popularInfo > p {
   padding-top: 8px;
+  font-size: 17px;
+  border-top: 1px solid lightgray;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .signup__item > p {
@@ -567,15 +578,6 @@
   margin-left: 95px;
 }
 
-.times__logo > a {
-  display: flex;
-  margin-top: -20px;
-  margin-bottom: 20px;
-  font-size: 12px;
-  text-decoration: none;
-  justify-content: flex-end;
-}
-
 .footer__title {
   display: flex;
   justify-content: space-evenly;
@@ -583,10 +585,6 @@
 .title__columnInfo {
   display: flex;
   flex-direction: column;
-}
-.title__columnInfo > a {
-  text-decoration: none;
-  color: black;
 }
 
 .title__columnInfo > a:hover {
@@ -630,7 +628,6 @@
   margin-top: 20px;
   display: flex;
   margin-bottom: 20px;
-
   justify-content: center;
 }
 
