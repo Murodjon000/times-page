@@ -66,6 +66,33 @@
   cursor: pointer;
 }
 
+.main__advertBottom > a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #1a4b70;
+}
+
+.footer__icon > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.end__footer > a {
+  padding-top: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  color: gray;
+  margin-right: 8px;
+}
+
+.main__footer > a,
+.main__footer2 > a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
 .right__side > button > a {
   text-decoration: none;
   color: white;
@@ -82,6 +109,16 @@
   padding-bottom: 6px;
   font-size: 18px;
   color: #fff;
+  cursor: pointer;
+}
+
+.button__signUp > button {
+  margin-left: 80px;
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+  font-weight: 700;
+  height: 25px;
   cursor: pointer;
 }
 
@@ -268,7 +305,7 @@
   font-weight: 600;
 }
 
-.main__advert:before {
+.main__advert::before {
   content: "";
   position: absolute;
   left: 55px;
@@ -284,13 +321,7 @@
   z-index: 1;
 }
 
-.main__advertBottom > a {
-  text-decoration: none;
-  font-weight: 700;
-  color: #1a4b70;
-}
-
-.main__advertBottom:before {
+.main__advertBottom::before {
   content: "";
   position: absolute;
   left: 55px;
@@ -325,6 +356,26 @@
   cursor: pointer;
 }
 
+.text__theory > p {
+  font-size: 12px;
+  color: gray;
+}
+
+.author__info > p {
+  margin-left: 13px;
+}
+
+.most__popularInfo > p {
+  padding-top: 8px;
+}
+
+.signup__item > p {
+  font-size: 15px;
+  width: 70%;
+  color: gray;
+  font-style: italic;
+}
+
 .editor__box > p:hover {
   text-decoration: underline;
 }
@@ -353,10 +404,6 @@
 .text__theory {
   margin-top: 25px;
   width: 71%;
-}
-.text__theory > p {
-  font-size: 12px;
-  color: gray;
 }
 
 .author__info {
@@ -410,35 +457,14 @@
   margin-top: 30px;
 }
 
-.button__signUp > button {
-  margin-left: 80px;
-  background-color: white;
-  outline: none;
-  border: 1px solid black;
-  font-weight: 700;
-  height: 25px;
-  cursor: pointer;
-}
-
 .button__signUp > button:hover {
   background-color: black;
   color: white;
 }
 
-.signup__item > p {
-  font-size: 15px;
-  width: 70%;
-  color: gray;
-  font-style: italic;
-}
-
 .sky {
   margin-top: 30px;
   width: 70%;
-}
-
-.author__info > p {
-  margin-left: 13px;
 }
 
 .comment__button > button:hover {
@@ -522,10 +548,6 @@
   width: 50%;
 }
 
-.most__popularInfo > p {
-  padding-top: 8px;
-}
-
 .most__popularInfo > p:hover {
   color: grey;
 }
@@ -585,12 +607,6 @@
   margin-bottom: 10px;
 }
 
-.footer__icon > a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-}
-
 .footer__icon > a:hover {
   text-decoration: underline;
 }
@@ -599,12 +615,6 @@
   margin-right: 5px;
 }
 
-.main__footer > a,
-.main__footer2 > a {
-  text-decoration: none;
-  color: black;
-  font-size: 12px;
-}
 .main__footer > a:hover,
 .main__footer2 > a:hover {
   text-decoration: underline;
@@ -622,13 +632,6 @@
   margin-bottom: 20px;
 
   justify-content: center;
-}
-.end__footer > a {
-  padding-top: 8px;
-  text-decoration: none;
-  font-size: 12px;
-  color: gray;
-  margin-right: 8px;
 }
 
 .end__footer > a:hover {
