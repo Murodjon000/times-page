@@ -23,6 +23,11 @@
   align-items: center;
 }
 
+.left__text {
+  text-decoration: none;
+  color: black;
+}
+
 .icon {
   margin-right: 20px;
   cursor: pointer;
@@ -48,7 +53,7 @@
   display: none;
 }
 
-.right__side > button {
+.right__sideBtn > button {
   margin-right: 10px;
   background-color: #567b95;
   color: #fff;
@@ -75,7 +80,7 @@
   cursor: pointer;
 }
 
-.right__side > button:hover {
+.right__sideBtn > button:hover {
   background-color: #326891;
 }
 
@@ -97,6 +102,18 @@
   cursor: pointer;
   justify-content: center;
   padding-bottom: 10px;
+}
+
+.advert__box1 {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .article {
@@ -170,6 +187,7 @@
   background-color: #eee;
   border-radius: 50%;
   padding: 8px;
+  color: black;
   border: #eee;
 }
 
@@ -192,22 +210,28 @@
 }
 
 .editor__pick {
-  display: flex;
-  flex-direction: column;
-  flex: 0.35;
-  justify-items: flex-end;
-  margin-left: 30px;
+  display: block;
+  float: right;
+  width: 300px;
+  padding-right: 50px;
+  margin-top: -155px;
 }
 
 .editor__pick > h5 {
   border-bottom: 1px solid lightgray;
 }
 
+.editor__line {
+  margin-left: 300px;
+}
+
 .editor__box {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
 }
 
 .editor__box > img {
@@ -221,12 +245,66 @@
   cursor: pointer;
 }
 
-.card__info > p {
+.advert__login {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__advert {
+  padding-top: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.main__advert > p {
+  font-weight: 600;
+}
+
+.main__advert:before {
+  content: "";
+  position: absolute;
+  left: 55px;
+  top: 0;
+  height: 10px;
+  width: 30%;
+  border-top: 1px solid lightgray;
+}
+
+.main__advertBottom {
+  padding-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.main__advertBottom > a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #1a4b70;
+}
+
+.main__advertBottom:before {
+  content: "";
+  position: absolute;
+  left: 55px;
+  bottom: 0;
+  height: 10px;
+  width: 30%;
+  border-bottom: 1px solid lightgray;
+}
+
+.text__name {
   font-weight: 700;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 12px;
   cursor: pointer;
-  width: 70%;
+  width: 90%;
+}
+
+.text__name:hover {
+  color: gray;
 }
 
 .most__popularInfo > p {
@@ -246,11 +324,116 @@
   text-decoration: underline;
 }
 
+.text__link {
+  color: #1a4b70;
+}
+
+.text__link:hover {
+  text-decoration: none;
+}
+
+.bold__text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.theory__inflation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.text__theory {
+  margin-top: 25px;
+  width: 71%;
+}
+.text__theory > p {
+  font-size: 12px;
+  color: gray;
+}
+
+.author__info {
+  width: 72%;
+  margin-top: 15px;
+  font-size: 13px;
+  padding-bottom: 15px;
+  color: gray;
+}
+
 .end__article {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 12px;
   color: gray;
+}
+
+.advert__title {
+  font-size: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: grey;
+}
+
+.signup__item {
+  display: flex;
+  margin-top: 20px;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.video {
+  margin-top: 30px;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.text__video {
+  font-size: 14px;
+  color: gray;
+  font-weight: 550;
+}
+
+.site {
+  font-size: 12px;
+  color: gray;
+}
+
+.video__bottom {
+  margin-top: 30px;
+}
+
+.button__signUp > button {
+  margin-left: 80px;
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+  font-weight: 700;
+  height: 25px;
+  cursor: pointer;
+}
+
+.button__signUp > button:hover {
+  background-color: black;
+  color: white;
+}
+
+.signup__item > p {
+  font-size: 15px;
+  width: 70%;
+  color: gray;
+  font-style: italic;
+}
+
+.sky {
+  margin-top: 30px;
+  width: 70%;
+}
+
+.author__info > p {
+  margin-left: 13px;
 }
 
 .comment__button > button:hover {
@@ -277,6 +460,30 @@
   font-size: 14px;
 }
 
+.card__info {
+  padding-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.image__footer {
+  font-size: 8px;
+  float: right;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.editor__foot {
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.image__day {
+  font-size: 8px;
+  color: gray;
+  margin-top: 5px;
+}
+
 .card__info > img {
   height: 120px;
   cursor: pointer;
@@ -285,7 +492,7 @@
 
 .card__infoBox {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 10px;
 }
 
@@ -310,6 +517,10 @@
   width: 50%;
 }
 
+.most__popularInfo > p {
+  padding-top: 8px;
+}
+
 .most__popularInfo > p:hover {
   color: grey;
 }
@@ -319,21 +530,39 @@
   flex-direction: column;
   justify-content: center;
   border-top: 1px solid lightgray;
+  margin-top: 30px;
 }
 
-.times__logo {
+.times__logo > img {
   display: flex;
   margin-top: 20px;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: 95px;
+}
+
+.times__logo > a {
+  display: flex;
+  margin-top: -20px;
   margin-bottom: 20px;
+  font-size: 12px;
+  text-decoration: none;
+  justify-content: flex-end;
 }
 
 .footer__title {
   display: flex;
   justify-content: space-evenly;
 }
+.title__columnInfo {
+  display: flex;
+  flex-direction: column;
+}
+.title__columnInfo > a {
+  text-decoration: none;
+  color: black;
+}
 
-.title__columnInfo > p:hover {
+.title__columnInfo > a:hover {
   text-decoration: underline;
 }
 
@@ -341,6 +570,64 @@
   border-left: 1px solid lightgrey;
   padding-left: 10px;
   cursor: pointer;
+}
+
+.footer__icon,
+.main__footer,
+.main__footer2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.footer__icon > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.footer__icon > a:hover {
+  text-decoration: underline;
+}
+
+.icon1 {
+  margin-right: 5px;
+}
+
+.main__footer > a,
+.main__footer2 > a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.main__footer > a:hover,
+.main__footer2 > a:hover {
+  text-decoration: underline;
+}
+
+.main__footer {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.end__footer {
+  border-top: 1px solid lightgray;
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 20px;
+
+  justify-content: center;
+}
+.end__footer > a {
+  padding-top: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  color: gray;
+  margin-right: 8px;
+}
+
+.end__footer > a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1009px) {
@@ -354,17 +641,13 @@
     font-size: 20px;
   }
 
-  .right__side > button {
-    display: none;
-  }
-
   .header__buttons {
     display: flex;
     background-color: white;
     justify-content: flex-end;
   }
 
-  .header__buttons > button {
+  .header__buttonsBtn > button {
     background: transparent;
     outline: none;
     border: none;
@@ -374,20 +657,17 @@
     text-transform: uppercase;
   }
 
-  .header__text {
-    display: none;
-  }
-
-  .left__icon {
-    display: none;
-  }
-
   .comment > p {
     width: 80%;
     color: gray;
   }
 
-  .editor__pick {
+  .editor__pick,
+  .left__icon,
+  .right__sideBtn > button,
+  .header__text,
+  .title__columnSub,
+  .title__columnInfo {
     display: none;
   }
 
@@ -408,14 +688,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid lightgray;
-  }
-
-  .title__columnInfo {
-    display: none;
-  }
-
-  .title__columnSub {
-    display: none;
   }
 }
 
@@ -441,21 +713,15 @@
     justify-content: center;
   }
 
-  .editor__pick {
-    display: none;
-  }
-
-  .advert__box {
+  .editor__pick,
+  .advert__box,
+  .most__popular {
     display: none;
   }
 
   .comment > p {
     width: 100%;
     color: gray;
-  }
-
-  .most__popular {
-    display: none;
   }
 
   .most__cards {
@@ -474,10 +740,7 @@
     justify-content: center;
   }
 
-  .editor__pick {
-    display: none;
-  }
-
+  .editor__pick,
   .advert__box {
     display: none;
   }
