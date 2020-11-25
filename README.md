@@ -20,32 +20,27 @@ Additional description about the project and its features.
 **If you want to make imporvement to this project i will be happy😀😉**
 **You can clone it to your computer in order to make improvment**
 
-To get a local copy up and running follow these simple example steps.
+To get the local copy up and running follow these simple example steps.
 
-### Prerequisites
+On your terminal:
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-## Authors
+- Clone the repository with `https://github.com/Murodjon000/times-page.git` to get a local copy.
+- cd into the folder where the project is stored in your machine.
+- To look at the code on the editor, for vscode type: _`code . `_
+- To view the project on your browser, if you are working with vscode, on the status bar, click on `Go Live`,
+  alternatively, inside the project folder, on your machine, look for a html file, right-click on it and
+  select the browser of your choice, to view the project.
 
 👤 **Author**
 
-- GitHub: [@Murodjon000](https://github.com/Murodjon000/times-page/tree/homepage)
+- GitHub: [@Murodjon000](https://github.com/Murodjon000)
 - LinkedIn: [murodjon-tursunpulatov](https://www.linkedin.com/in/murodjon-tursunpulatov-5189481b3/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Murodjon000/times-page/issues).
 
 ## Show your support
 
@@ -59,4 +54,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is MIT licensed.
