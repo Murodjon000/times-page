@@ -53,7 +53,7 @@
   display: none;
 }
 
-.right__sideBtn > button {
+.right__side > button {
   margin-right: 10px;
   background-color: #567b95;
   color: #fff;
@@ -64,6 +64,11 @@
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.right__side > button > a {
+  text-decoration: none;
+  color: white;
 }
 
 .comment__button > button {
@@ -80,7 +85,7 @@
   cursor: pointer;
 }
 
-.right__sideBtn > button:hover {
+.right__side > button:hover {
   background-color: #326891;
 }
 
@@ -664,7 +669,7 @@
 
   .editor__pick,
   .left__icon,
-  .right__sideBtn > button,
+  .right__side > button,
   .header__text,
   .title__columnSub,
   .title__columnInfo {
