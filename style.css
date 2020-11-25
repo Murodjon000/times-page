@@ -112,10 +112,6 @@
   color: white;
 }
 
-iframe {
-  border-width: 0px;
-}
-
 .comment__button > button {
   background-color: #326891;
   border: 1px solid #326891;
