@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./stylesheets/header.css" />
     <link rel="stylesheet" href="./stylesheets/main.css" />
     <link rel="stylesheet" href="./stylesheets/mediquery.css" />
+    <link rel="stylesheet" href="./stylesheets/form.css" />
     <title>Document</title>
   </head>
   <body>
@@ -331,60 +332,60 @@
             <div class="grid">
               <div>
                 <b class="grid__boldText">THE UNIVERSE</b>
-                 is just under 14 billion years old. From our
-                position in the Milky Way galaxy, we can observe a sphere that
-                is now about 92 billion light-years across. But there's a
-                mystery. Wherever we look, the universe has an even temperature.
+                is just under 14 billion years old. From our position in the
+                Milky Way galaxy, we can observe a sphere that is now about 92
+                billion light-years across. But there's a mystery. Wherever we
+                look, the universe has an even temperature.
               </div>
               <div>
                 <b class="grid__boldText">NOT ENOUGH TIME</b>
-                 The universe is not old enough for light to have
-                traveled the vast distance from one side of the universe to the
-                other, and there has not been enough time for scattered patches
-                of hot and cold to mix into an even temperature.
+                The universe is not old enough for light to have traveled the
+                vast distance from one side of the universe to the other, and
+                there has not been enough time for scattered patches of hot and
+                cold to mix into an even temperature.
               </div>
               <div>
                 <b class="grid__boldText">DISTANT COFFEE</b>
-                 At a smaller scale, imagine using a telescope to
-                look a mile in one direction. You see a coffee cup, and from the
-                amount of steam, you can estimate its temperature and how much
-                it has cooled.
+                At a smaller scale, imagine using a telescope to look a mile in
+                one direction. You see a coffee cup, and from the amount of
+                steam, you can estimate its temperature and how much it has
+                cooled.
               </div>
               <div>
                 <b class="grid__boldText">COFFEE EVERYWHERE</b>
-                 Now turn around and look a mile in the other
-                direction. You see a similar coffee cup, at exactly the same
-                temperature. Coincidence? Maybe. But if you see a similar cup in
-                every direction, you might want to look for another explanation.
+                Now turn around and look a mile in the other direction. You see
+                a similar coffee cup, at exactly the same temperature.
+                Coincidence? Maybe. But if you see a similar cup in every
+                direction, you might want to look for another explanation.
               </div>
 
               <div>
                 <b class="grid__boldText"> STILL NOT ENOUGH TIME</b>
-                There has not been enough time to carry
-                coffee cups from place to place before they get cold. But if all
-                the coffee cups were somehow filled from a single coffee pot,
-                all at the same time, that might explain their even temperature
+                There has not been enough time to carry coffee cups from place
+                to place before they get cold. But if all the coffee cups were
+                somehow filled from a single coffee pot, all at the same time,
+                that might explain their even temperature
               </div>
               <div>
                 <b class="grid__boldText"> STILL NOT ENOUGH TIME</b>
-                There has not been enough time to carry
-                coffee cups from place to place before they get cold. But if all
-                the coffee cups were somehow filled from a single coffee pot,
-                all at the same time, that might explain their even temperature
+                There has not been enough time to carry coffee cups from place
+                to place before they get cold. But if all the coffee cups were
+                somehow filled from a single coffee pot, all at the same time,
+                that might explain their even temperature
               </div>
               <div>
                 <b class="grid__boldText"> STILL NOT ENOUGH TIME</b>
-                There has not been enough time to carry
-                coffee cups from place to place before they get cold. But if all
-                the coffee cups were somehow filled from a single coffee pot,
-                all at the same time, that might explain their even temperature
+                There has not been enough time to carry coffee cups from place
+                to place before they get cold. But if all the coffee cups were
+                somehow filled from a single coffee pot, all at the same time,
+                that might explain their even temperature
               </div>
               <div>
                 <b class="grid__boldText"> STILL NOT ENOUGH TIME</b>
-                There has not been enough time to carry
-                coffee cups from place to place before they get cold. But if all
-                the coffee cups were somehow filled from a single coffee pot,
-                all at the same time, that might explain their even temperature
+                There has not been enough time to carry coffee cups from place
+                to place before they get cold. But if all the coffee cups were
+                somehow filled from a single coffee pot, all at the same time,
+                that might explain their even temperature
               </div>
             </div>
           </div>
@@ -782,14 +783,51 @@
           </section>
         </div>
       </div>
-      <div class="container">
-        <div class="advert__box1">
-          <p class="advert__title">ADVERTISEMENT</p>
-          <img
-            src="https://tpc.googlesyndication.com/simgad/14079855542345729536?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4qkx0AST9IeWHe6Z20BNe2f7Q7qGIQ"
-            alt="advertisement"
-          />
-        </div>
+
+      <div class="form__container">
+        <h2>Post a Comment</h2>
+        <form class="form" method="post">
+          <ul class="form__list">
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </li>
+            <li>
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required />
+            </li>
+
+            <li>
+              <label for="question"
+                >What is your overall opinion about this article</label
+              >
+              <select name="question" class="question__option">
+                <option value="positive" selected>Positive</option>
+                <option value="negative">Negative</option>
+                <option value="neutral">Neutral</option>
+              </select>
+            </li>
+            <li>
+              <label for="checking"
+                >I want to subscribe to the newsletter</label
+              >
+              <input type="checkbox" name="checkbox" id="checking" required />
+            </li>
+          </ul>
+          <label for="comment" class="com">Comment:</label>
+          <textarea
+            placeholder="Type your comment here…"
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="10"
+            minlength="20"
+            maxlength="250"
+            required
+          ></textarea>
+
+          <button type="submit" class="button__submit">Send</button>
+        </form>
       </div>
     </main>
     <footer>
