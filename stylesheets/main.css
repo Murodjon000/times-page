@@ -276,6 +276,31 @@
   color: gray;
 }
 
+.teles__head {
+  color: black;
+  font-size: 16px;
+}
+
+.grid__box {
+  width: 70%;
+}
+
+.grid {
+  margin-top: -480px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 11em;
+  grid-column-gap: 3em;
+}
+
+.grid > div {
+  font-size: 14px;
+}
+
+.grid__boldText {
+  margin-right: 5px;
+}
+
 .author__info > p {
   margin-left: 13px;
 }
@@ -334,6 +359,13 @@
   color: gray;
 }
 
+.info__teles {
+  width: 70%;
+  margin-top: 15px;
+  font-size: 13px;
+  color: gray;
+}
+
 .end__article {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -385,6 +417,11 @@
 .sky {
   margin-top: 30px;
   width: 70%;
+}
+
+.telescop {
+  margin-top: 10px;
+  width: 100%;
 }
 
 .comment__button > button:hover {
