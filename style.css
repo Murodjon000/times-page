@@ -49,7 +49,6 @@
 
 .right__side {
   display: flex;
-
   align-items: center;
 }
 
@@ -549,7 +548,6 @@
 
 .card__infoBox {
   display: flex;
-
   flex-direction: row;
   align-items: baseline;
   margin-top: 10px;
