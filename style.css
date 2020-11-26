@@ -2,6 +2,7 @@
 
 * {
   margin: 0;
+  padding: 0;
   font-family: "Lato", sans-serif;
   box-sizing: border-box;
 }
@@ -19,8 +20,11 @@
 
 .left__side {
   display: flex;
-  margin-left: 15px;
   align-items: center;
+}
+
+.icon__header {
+  padding-left: 10px;
 }
 
 .left__text {
@@ -29,8 +33,8 @@
 }
 
 .icon {
-  margin-right: 20px;
   cursor: pointer;
+  padding-right: 10px;
 }
 
 .middle__side {
@@ -45,7 +49,7 @@
 
 .right__side {
   display: flex;
-  margin-right: 15px;
+
   align-items: center;
 }
 
@@ -483,17 +487,23 @@
 }
 
 .cards__space {
+  display: grid;
+  place-items: center;
+}
+
+.all__cards {
   margin-top: 20px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  width: 70%;
 }
 
 .most__cards {
   border-top: 1px solid black;
   display: flex;
-  flex: 0.85;
-  flex-direction: column;
   margin-left: auto;
+  flex-direction: column;
 }
 
 .most__cards > h5 {
@@ -503,7 +513,6 @@
 }
 
 .card__info {
-  padding-right: 10px;
   text-decoration: none;
   color: black;
 }
@@ -527,20 +536,28 @@
 }
 
 .card__info > img {
-  height: 120px;
   cursor: pointer;
-  width: 200px;
+}
+
+.box1 {
+  padding-left: 10px;
+}
+
+.box2 {
+  padding-left: 10px;
 }
 
 .card__infoBox {
   display: flex;
-  justify-content: flex-start;
+
+  flex-direction: row;
+  align-items: baseline;
   margin-top: 10px;
 }
 
 .most__popular {
   display: flex;
-  margin-left: 20px;
+  margin-left: 30px;
   flex-direction: column;
 }
 
@@ -556,7 +573,7 @@
 }
 
 .most__popularInfo {
-  width: 50%;
+  width: 80%;
 }
 
 .most__popularInfo > p:hover {
