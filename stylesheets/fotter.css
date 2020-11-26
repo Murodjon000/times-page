@@ -1,0 +1,72 @@
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid lightgray;
+  margin-top: 30px;
+}
+
+.times__logo > img {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-start;
+  margin-left: 95px;
+}
+
+.footer__title {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title__columnInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.title__columnInfo > a:hover {
+  text-decoration: underline;
+}
+
+.title__columnSub {
+  border-left: 1px solid lightgrey;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.footer__icon,
+.main__footer,
+.main__footer2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.footer__icon > a:hover {
+  text-decoration: underline;
+}
+
+.icon1 {
+  margin-right: 5px;
+}
+
+.main__footer > a:hover,
+.main__footer2 > a:hover {
+  text-decoration: underline;
+}
+
+.main__footer {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.end__footer {
+  border-top: 1px solid lightgray;
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.end__footer > a:hover {
+  text-decoration: underline;
+}

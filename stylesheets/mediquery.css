@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1009px) {
+  .img__box > img {
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .user {
+    display: flex;
+    font-size: 20px;
+  }
+
+  .header__buttons {
+    display: flex;
+    background-color: white;
+    justify-content: flex-end;
+  }
+
+  .header__buttonsBtn > button {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: grey;
+    margin-right: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .comment > p {
+    width: 80%;
+    color: gray;
+  }
+
+  .editor__pick,
+  .left__icon,
+  .right__side > button,
+  .header__text,
+  .title__columnSub,
+  .title__columnInfo {
+    display: none;
+  }
+
+  .times__logo {
+    display: flex;
+  }
+
+  .footer__title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .title__column {
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid lightgray;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .img__box > img {
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .comment > p {
+    width: 80%;
+    color: gray;
+  }
+
+  .editor__pick {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .img__box > img {
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .editor__pick,
+  .advert__box,
+  .most__popular {
+    display: none;
+  }
+
+  .comment > p {
+    width: 100%;
+    color: gray;
+  }
+
+  .most__cards {
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .header__container {
+    width: 100%;
+  }
+
+  .img__box > img {
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .editor__pick,
+  .advert__box {
+    display: none;
+  }
+
+  .comment > p {
+    width: 100%;
+    color: gray;
+  }
+}
