@@ -2,7 +2,7 @@
 
 > Very Handy Project To Improve Your Web Design Capacity.
 
-![screenshot](./app-image.png)
+![screenshot](./readme-img.png)
 
 Additional description about the project and its features.
 
