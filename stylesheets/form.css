@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap");
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  font-family: "Castoro", serif;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.form__container > h2 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 20px;
+  box-shadow: 0 1px 3px 2px #abb1ab80;
+}
+
+#name,
+#email {
+  width: 400px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1.3px solid lightgray;
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+}
+
+.form__list > li,
+.com {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#browsers {
+  margin-left: 15px;
+  width: 11px;
+  border: 1.3px solid lightgray;
+}
+
+#checking {
+  margin-left: 15px;
+  align-items: baseline;
+  border: 1.3px solid lightgray;
+}
+
+#comment {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+}
+
+.button__submit {
+  height: 40px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 17px;
+  transition: all 0.3s ease-in;
+  border: 1px solid lightgray;
+}
+
+.button__submit:hover {
+  transform: scale(0.98);
+}
