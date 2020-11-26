@@ -286,10 +286,10 @@
 }
 
 .grid {
-  margin-top: -480px;
+  margin-top: -440px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-row-gap: 11em;
+  grid-row-gap: 9em;
   grid-column-gap: 3em;
 }
 
