@@ -44,9 +44,9 @@ li {
   font-weight: 700;
 }
 
-.question__option {
+#browsers {
   margin-left: 15px;
-  width: 110px;
+  width: 11px;
   border: 1.3px solid lightgray;
 }
 

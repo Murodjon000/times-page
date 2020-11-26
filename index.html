@@ -801,11 +801,13 @@
               <label for="question"
                 >What is your overall opinion about this article</label
               >
-              <select name="question" class="question__option">
-                <option value="positive" selected>Positive</option>
-                <option value="negative">Negative</option>
-                <option value="neutral">Neutral</option>
-              </select>
+
+              <input list="browsers" id="question" name="question" />
+              <datalist id="browsers">
+                <option value="Positive" selected></option>
+                <option value="Negative"></option>
+                <option value="Neutral"></option>
+              </datalist>
             </li>
             <li>
               <label for="checking"
